@@ -9,13 +9,13 @@ function Hero() {
                 <button className="">
                     <a href='/Ali-Raza-Resume.pdf'
                         download
-                        className='flex items-center gap-2 bg-(--color-light) text-(--color-primary) my-4 px-4 py-1.5 rounded-full text-sm cursor-pointer border transition-all duration-150 hover:bg-(--color-primary) hover:text-(--color-light) hover:border hover:border-(--color-border-2) group'
+                        className='flex items-center gap-2 bg-(--color-light) text-(--color-primary) my-4 sm:px-4 px-2 py-0.5 sm:py-1.5 rounded-full text-[9px] sm:text-sm cursor-pointer border transition-all duration-150 hover:bg-(--color-primary) hover:text-(--color-light) hover:border hover:border-(--color-border-2) group'
                     >
                         Download Resume
-                        <span className="w-10 h-10 bg-black text-(--color-light) rounded-full overflow-hidden">
+                        <span className="sm:w-10 w-7 h-7 sm:h-10 bg-black text-(--color-light) rounded-full overflow-hidden">
                             <ul className=' flex flex-col items-center justify-center'>
-                                <li className='-translate-y-6 group-hover:translate-y-1 transition-all duration-400'> <i className="text-lg bi bi-download"></i> </li>
-                                <li className='-translate-y-6 group-hover:translate-y-6 transition-all duration-400'>  <i className="text-lg bi bi-download"></i> </li>
+                                <li className='-translate-y-6 group-hover:translate-y-1 transition-all duration-400'> <i className="text-xs sm:text-lg bi bi-download"></i> </li>
+                                <li className='-translate-y-2.5 sm:-translate-y-6 group-hover:translate-y-6 transition-all duration-400'> <i className="text-xs sm:text-lg bi bi-download"></i> </li>
                             </ul>
                         </span>
                     </a>
