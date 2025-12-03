@@ -1,16 +1,36 @@
-# React + Vite
+# Ali Design Lab
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ali Design Lab is a personal project showcase portfolio built to highlight my work in web design and frontend development. It has a simple layout, smooth UI, and direct demo links so visitors can explore each project easily.
 
-Currently, two official plugins are available:
+**Live Demo:** https://ali-designlab.netlify.app/  
+**Repository:** https://github.com/Muhammad-Ali-16/designlab  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Modern and minimal layout  
+- Built with HTML, CSS, Tailwind and React  
+- Fully responsive on all devices  
+- Project cards with previews, short descriptions and demo links  
+- Easy to update and maintain  
 
-## React Compiler
+## How to Use
+1. Clone or download the repository:  
+   ```bash
+   git clone https://github.com/Muhammad-Ali-16/designlab.git
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+2. Install dependencies (Node.js packages):  
+   ```bash
+   npm install
+   ```  
 
-## Expanding the ESLint configuration
+3. Run the application:  
+   ```bash
+   npm start
+   ```  
+4. Open the app in your browser or terminal (depending on your setup).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `index.html` — entry page / layout  
+- CSS and JS files (e.g. `style.css`, custom JS) — for styling and interactivity  
+- Asset folders — images, icons, fonts
+  
+## Author
+Muhammad Ali — [GitHub Profile](https://github.com/Muhammad-Ali-16)
