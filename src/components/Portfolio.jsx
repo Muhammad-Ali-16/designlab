@@ -3,16 +3,16 @@ import React from 'react'
 function Portfolio() {
 
     const PorfolioCards = [
-        { url: 'turmet.netlify.app', ImgUrl: 'travel-app.png', heading: 'Travel App' },
-        { url: 'restfolio.netlify.app', ImgUrl: 'restaurant-portfolio.png', heading: 'Restaurant Porfolio' },
-        { url: 'aliraza-personalportfolio.netlify.app', ImgUrl: 'personal-portfolio.png', heading: 'Personal Porfolio' },
-        { url: 'bit-matrix.netlify.app', ImgUrl: 'business-template.png', heading: 'Business Template' },
-        { url: 'luxury-drive.netlify.app', ImgUrl: 'car-rental-theme.png', heading: 'Car Rental Theme' },
-        { url: 'grillrestaurant-template.netlify.app', ImgUrl: 'restaurant-template.png', heading: 'Restaurant Theme' },
-        { url: 'hungry-spoon.netlify.app', ImgUrl: 'recipe-finder.png', heading: 'Recipe Finder' },
-        { url: 'abacusai.netlify.app', ImgUrl: 'chatbot.png', heading: 'Chat Bot' },
-        { url: 'quizzzyfy.netlify.app', ImgUrl: 'quiz-app.png', heading: 'Quiz App' },
-        { url: 'sigmastorm.netlify.app', ImgUrl: 'weather-app.png', heading: 'Weather App' },
+        { url: 'turmet.netlify.app', ImgUrl: 'travel-app.jpg', heading: 'Travel App' },
+        { url: 'restfolio.netlify.app', ImgUrl: 'restaurant-portfolio.jpg', heading: 'Restaurant Porfolio' },
+        { url: 'aliraza-personalportfolio.netlify.app', ImgUrl: 'personal-portfolio.jpg', heading: 'Personal Porfolio' },
+        { url: 'bit-matrix.netlify.app', ImgUrl: 'business-template.jpg', heading: 'Business Template' },
+        { url: 'luxury-drive.netlify.app', ImgUrl: 'car-rental-theme.jpg', heading: 'Car Rental Theme' },
+        { url: 'grillrestaurant-template.netlify.app', ImgUrl: 'restaurant-template.jpg', heading: 'Restaurant Theme' },
+        { url: 'hungry-spoon.netlify.app', ImgUrl: 'recipe-finder.jpg', heading: 'Recipe Finder' },
+        { url: 'abacusai.netlify.app', ImgUrl: 'chatbot.jpg', heading: 'Chat Bot' },
+        { url: 'quizzzyfy.netlify.app', ImgUrl: 'quiz-app.jpg', heading: 'Quiz App' },
+        { url: 'sigmastorm.netlify.app', ImgUrl: 'weather-app.jpg', heading: 'Weather App' },
     ]
 
     return (
@@ -61,7 +61,6 @@ function Portfolio() {
                         </a>
                     </div>
                 ))}
-
             </div>
         </section>
     )
